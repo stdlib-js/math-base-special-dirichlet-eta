@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-dirichlet-eta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dirichlet eta function.",
   "license": "Apache-2.0",
   "author": {
