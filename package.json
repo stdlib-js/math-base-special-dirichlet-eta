@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/math-base-special-dirichlet-eta",
+  "version": "0.0.0",
+  "description": "Dirichlet eta function.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-dirichlet-eta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "special",
+    "function",
+    "eta",
+    "zeta",
+    "dirichlet",
+    "series",
+    "alternating",
+    "number",
+    "number theory"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
