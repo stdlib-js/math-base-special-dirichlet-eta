@@ -64,30 +64,14 @@ where `ζ(s)` is the [Riemann zeta][@stdlib/math/base/special/riemann-zeta] func
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-dirichlet-eta
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var eta = require( '@stdlib/math-base-special-dirichlet-eta' );
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@esm/index.mjs';
 ```
 
 #### eta( s )
@@ -121,9 +105,14 @@ v = eta( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var eta = require( '@stdlib/math-base-special-dirichlet-eta' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@esm/index.mjs';
 
 var s = linspace( -50.0, 50.0, 200 );
 
@@ -131,6 +120,10 @@ var i;
 for ( i = 0; i < s.length; i++ ) {
     console.log( 's: %d, η(s): %d', s[ i ], eta( s[ i ] ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -154,7 +147,7 @@ for ( i = 0; i < s.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -218,7 +211,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [dirichlet-series]: https://en.wikipedia.org/wiki/Dirichlet_series
 
-[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta
+[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta/tree/esm
 
 </section>
 
