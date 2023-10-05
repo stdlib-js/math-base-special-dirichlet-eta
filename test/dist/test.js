@@ -32,7 +32,7 @@ var eta = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/julia/results.json' );
+var data = require( './../fixtures/julia/results.json' );
 
 
 // TESTS //
