@@ -82,7 +82,7 @@ where `ζ(s)` is the [Riemann zeta][@stdlib/math/base/special/riemann-zeta] func
 ## Usage
 
 ```javascript
-import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@deno/mod.js';
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@v0.2.1-deno/mod.js';
 ```
 
 #### eta( s )
@@ -118,7 +118,7 @@ v = eta( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@deno/mod.js';
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@v0.2.1-deno/mod.js';
 
 var s = linspace( -50.0, 50.0, 200 );
 
