@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-07)
+
+<section class="features">
+
+### Features
+
+-   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - **feat:** add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282) _(by Gunj Joshi, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)

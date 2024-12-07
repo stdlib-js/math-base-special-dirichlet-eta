@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,37 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_MATH_BASE_SPECIAL_DIRICHLET_ETA_H
+#define STDLIB_MATH_BASE_SPECIAL_DIRICHLET_ETA_H
+
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
-* Evaluate the Dirichlet eta function for a double-precision floating-point number `s`.
-*
-* @module @stdlib/math-base-special-dirichlet-eta
-*
-* @example
-* var eta = require( '@stdlib/math-base-special-dirichlet-eta' );
-*
-* var v = eta( 0.0 );
-* // returns 0.5
-*
-* v = eta( -1.0 );
-* // returns 0.25
-*
-* v = eta( 1.0 ); // => ln(2)
-* // returns ~0.6931
-*
-* v = eta( 3.14 );
-* // returns ~0.9096
-*
-* v = eta( NaN );
-* // returns NaN
+* Evaluates the Dirichlet eta function for a double-precision floating-point number `s`.
 */
+double stdlib_base_eta( const double s );
 
-// MODULES //
+#ifdef __cplusplus
+}
+#endif
 
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+#endif // !STDLIB_MATH_BASE_SPECIAL_DIRICHLET_ETA_H
