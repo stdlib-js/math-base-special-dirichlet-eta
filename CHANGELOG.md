@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-09-13)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -25,7 +25,7 @@
 -   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`b6667b9`](https://github.com/stdlib-js/stdlib/commit/b6667b9be170d2a64db2d075cec22539b0125187) - **chore:** replace manual `for` loop in examples [(#6350)](https://github.com/stdlib-js/stdlib/pull/6350) _(by Harsh)_
+-   [`b6667b9`](https://github.com/stdlib-js/stdlib/commit/b6667b9be170d2a64db2d075cec22539b0125187) - **chore:** replace manual `for` loop in examples [(#6350)](https://github.com/stdlib-js/stdlib/pull/6350) _(by Harsh Yadav)_
 -   [`ef06a2d`](https://github.com/stdlib-js/stdlib/commit/ef06a2dda4cc6b272088a7a39c30e48dbf8c6ce4) - **feat:** add C implementation for `math/base/special/dirichlet-eta` [(#3282)](https://github.com/stdlib-js/stdlib/pull/3282) _(by Gunj Joshi, stdlib-bot)_
 
 </details>
@@ -42,7 +42,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 
 </section>
