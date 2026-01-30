@@ -82,7 +82,7 @@ where `ζ(s)` is the [Riemann zeta][@stdlib/math/base/special/riemann-zeta] func
 ## Usage
 
 ```javascript
-import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@esm/index.mjs';
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@v0.3.0-esm/index.mjs';
 ```
 
 #### eta( s )
@@ -124,7 +124,7 @@ v = eta( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@esm/index.mjs';
+import eta from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirichlet-eta@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
